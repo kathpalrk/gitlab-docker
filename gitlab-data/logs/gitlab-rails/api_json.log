@@ -1,0 +1,2 @@
+# Logfile created on 2020-02-20 04:51:18 +0000 by logger.rb/66358
+{"time":"2020-02-20T05:16:39.965Z","severity":"INFO","duration":184.26,"db":63.44,"view":120.82,"status":200,"method":"GET","path":"/api/v4/application/statistics","params":[],"host":"172.28.0.3","remote_ip":"172.28.0.1, 127.0.0.1","ua":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36","route":"/api/:version/application/statistics","user_id":1,"username":"root","queue_duration":67.88,"correlation_id":"rQNYDShq2G8"}

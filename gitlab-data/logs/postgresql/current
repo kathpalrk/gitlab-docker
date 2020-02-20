@@ -1,0 +1,24 @@
+2020-02-20_04:57:29.76823 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2020-02-20_04:57:31.21246 LOG:  database system was interrupted; last known up at 2020-02-20 04:51:01 GMT
+2020-02-20_04:57:31.21256 FATAL:  the database system is starting up
+2020-02-20_04:57:31.21257 FATAL:  the database system is starting up
+2020-02-20_04:57:31.21257 FATAL:  the database system is starting up
+2020-02-20_04:57:31.21258 FATAL:  the database system is starting up
+2020-02-20_04:57:31.21258 LOG:  database system was not properly shut down; automatic recovery in progress
+2020-02-20_04:57:31.21259 LOG:  redo starts at 0/15C14B0
+2020-02-20_04:57:31.21259 LOG:  invalid record length at 0/2110388: wanted 24, got 0
+2020-02-20_04:57:31.21259 LOG:  redo done at 0/2110360
+2020-02-20_04:57:31.21260 LOG:  last completed transaction was at log time 2020-02-20 04:53:47.538069+00
+2020-02-20_04:57:32.13337 FATAL:  the database system is starting up
+2020-02-20_04:57:32.15469 FATAL:  the database system is starting up
+2020-02-20_04:57:32.17603 FATAL:  the database system is starting up
+2020-02-20_04:57:33.91101 LOG:  database system is ready to accept connections
+2020-02-20_04:58:29.47580 received TERM from runit, sending INT instead to force quit connections
+2020-02-20_04:58:29.49005 LOG:  received fast shutdown request
+2020-02-20_04:58:29.62246 LOG:  aborting any active transactions
+2020-02-20_04:58:29.62337 LOG:  worker process: logical replication launcher (PID 427) exited with exit code 1
+2020-02-20_04:58:29.62379 LOG:  shutting down
+2020-02-20_04:58:30.58022 LOG:  database system is shut down
+2020-02-20_04:58:30.78850 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2020-02-20_04:58:31.15563 LOG:  database system was shut down at 2020-02-20 04:58:30 GMT
+2020-02-20_04:58:31.24140 LOG:  database system is ready to accept connections

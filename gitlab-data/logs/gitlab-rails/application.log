@@ -1,0 +1,26 @@
+# Logfile created on 2020-02-20 04:51:41 +0000 by logger.rb/66358
+2020-02-20T04:51:41.852Z: User "Administrator" (admin@example.com) was created
+2020-02-20T04:52:22.952Z: DB connection pool size: 25 (increased from 1 to match thread count)
+2020-02-20T04:53:12.294Z:   
+!! RUNTIME IDENTIFICATION FAILED: Failed to identify runtime for process 1088 (bin/rails)
+  Runtime based configuration settings may not work properly.
+  If you continue to see this error, please file an issue via
+  https://gitlab.com/gitlab-org/gitlab/issues/new
+
+2020-02-20T04:53:23.084Z: Failed Login: username=roto ip=172.28.0.1
+2020-02-20T04:53:31.128Z: Successful Login: username=root ip=172.28.0.1 method=standard admin=true
+2020-02-20T04:53:38.542Z: User Logout: username=root ip=172.28.0.1
+2020-02-20T04:58:44.349Z: DB connection pool size: 25 (increased from 1 to match thread count)
+2020-02-20T05:00:12.290Z: Failed Login: username=root ip=172.28.0.1
+2020-02-20T05:00:23.950Z: Failed Login: username=root ip=172.28.0.1
+2020-02-20T05:00:52.100Z: User Created: username=rahul email=rahulk@1wayit.com ip=172.28.0.1 confirmed:true
+2020-02-20T05:01:59.085Z: User Logout: username=rahul ip=172.28.0.1
+2020-02-20T05:02:37.029Z: Failed Login: username=root ip=172.28.0.1
+2020-02-20T05:02:45.349Z: Failed Login: username=root ip=172.28.0.1
+2020-02-20T05:03:04.712Z: Account Locked: username=root
+2020-02-20T05:03:04.996Z: Failed Login: username=root ip=172.28.0.1
+2020-02-20T05:07:02.708Z: Failed Login: username=gitlab ip=172.28.0.1
+2020-02-20T05:07:08.443Z: Failed Login: username=root ip=172.28.0.1
+2020-02-20T05:16:08.397Z: Failed Login: username=root ip=172.28.0.1
+2020-02-20T05:16:14.724Z: Successful Login: username=root ip=172.28.0.1 method=standard admin=true
+2020-02-20T05:16:46.971Z: User Logout: username=root ip=172.28.0.1

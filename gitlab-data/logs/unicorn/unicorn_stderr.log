@@ -1,0 +1,30 @@
+I, [2020-02-20T04:52:05.007597 #759]  INFO -- : Refreshing Gem list
+I, [2020-02-20T04:52:47.297663 #759]  INFO -- : listening on addr=127.0.0.1:8080 fd=18
+I, [2020-02-20T04:52:47.297817 #759]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=19
+I, [2020-02-20T04:52:47.883129 #759]  INFO -- : master process ready
+I, [2020-02-20T04:52:49.920454 #994]  INFO -- : worker=0 ready
+I, [2020-02-20T04:52:50.005492 #995]  INFO -- : worker=1 ready
+I, [2020-02-20T04:52:51.062820 #997]  INFO -- : worker=3 ready
+I, [2020-02-20T04:52:51.099615 #996]  INFO -- : worker=2 ready
+I, [2020-02-20T04:52:51.183428 #998]  INFO -- : worker=4 ready
+I, [2020-02-20T04:52:51.249275 #1002]  INFO -- : worker=6 ready
+I, [2020-02-20T04:52:51.408375 #1001]  INFO -- : worker=5 ready
+I, [2020-02-20T04:58:21.588112 #576]  INFO -- : Refreshing Gem list
+I, [2020-02-20T04:58:53.541588 #576]  INFO -- : listening on addr=127.0.0.1:8080 fd=18
+I, [2020-02-20T04:58:53.541942 #576]  INFO -- : unlinking existing socket=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket
+I, [2020-02-20T04:58:53.542037 #576]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=19
+I, [2020-02-20T04:58:53.848444 #576]  INFO -- : master process ready
+W, [2020-02-20T04:58:53.848691 #576]  WARN -- : grandparent died too soon?: Broken pipe (Errno::EPIPE)
+I, [2020-02-20T04:58:54.007874 #897]  INFO -- : worker=0 ready
+I, [2020-02-20T04:58:54.029519 #898]  INFO -- : worker=1 ready
+I, [2020-02-20T04:58:54.058078 #900]  INFO -- : worker=3 ready
+I, [2020-02-20T04:58:54.070881 #899]  INFO -- : worker=2 ready
+I, [2020-02-20T04:58:54.079989 #901]  INFO -- : worker=4 ready
+I, [2020-02-20T04:58:54.098888 #902]  INFO -- : worker=5 ready
+I, [2020-02-20T04:58:54.141669 #903]  INFO -- : worker=6 ready
+unknown OID 28: failed to recognize type of 'relfrozenxid'. It will be treated as String.
+unknown OID 1034: failed to recognize type of 'relacl'. It will be treated as String.
+unknown OID 194: failed to recognize type of 'relpartbound'. It will be treated as String.
+unknown OID 28: failed to recognize type of 'relfrozenxid'. It will be treated as String.
+unknown OID 1034: failed to recognize type of 'relacl'. It will be treated as String.
+unknown OID 194: failed to recognize type of 'relpartbound'. It will be treated as String.

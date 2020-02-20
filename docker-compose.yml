@@ -1,0 +1,39 @@
+version: '3'
+services:
+  gitlab:
+    container_name: gitlab
+    image: gitlab/gitlab-ce:latest
+    depends_on:
+      - psql
+    ports:
+      - '80:80'
+      - '443:443'
+      - '22:22'
+    volumes:
+      - ./gitlab-config:/etc/gitlab
+      - ./gitlab-data/logs:/var/log/gitlab
+      - ./gitlab-data/data:/var/opt/gitlab
+    environment:
+      - GITLAB_OMNIBUS_CONFIG |
+        unicorn['socket'] = '/opt/gitlab/var/unicorn/gitlab.socket'
+        postgresql['enable'] = false;
+        gitlab_rails['db_username'] = "gitlab";
+        gitlab_rails['db_password'] = "gitlab123";
+        gitlab_rails['db_host'] = "psql";
+        gitlab_rails['db_port'] = "5432";
+        gitlab_rails['db_database'] = "gitlabhq_production";
+        gitlab_rails['db_adapter'] = 'postgresql';
+        gitlab_rails['db_encoding'] = 'utf8';
+    restart: always
+
+  psql:
+    container_name: psql
+    image: rahulkathpal/postgres
+    restart: always
+    volumes:
+      - ./psql/var/lib/postgresql/data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=gitlab
+      - POSTGRES_PASSWORD=gitlab123
+      - POSTGRES_DB=gitlabhq_production
+

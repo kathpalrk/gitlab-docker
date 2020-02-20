@@ -1,0 +1,41 @@
+2020-02-20_04:57:21.61472 242:C 20 Feb 2020 04:57:21.614 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2020-02-20_04:57:21.61483 242:C 20 Feb 2020 04:57:21.614 # Redis version=5.0.7, bits=64, commit=4891612b, modified=0, pid=242, just started
+2020-02-20_04:57:21.61484 242:C 20 Feb 2020 04:57:21.614 # Configuration loaded
+2020-02-20_04:57:21.61718 242:M 20 Feb 2020 04:57:21.617 * Running mode=standalone, port=0.
+2020-02-20_04:57:21.61724 242:M 20 Feb 2020 04:57:21.617 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2020-02-20_04:57:21.61726 242:M 20 Feb 2020 04:57:21.617 # Server initialized
+2020-02-20_04:57:21.61727 242:M 20 Feb 2020 04:57:21.617 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2020-02-20_04:57:21.61730 242:M 20 Feb 2020 04:57:21.617 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2020-02-20_04:57:21.61752 242:M 20 Feb 2020 04:57:21.617 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2020-02-20_04:58:30.74409 242:signal-handler (1582174710) Received SIGTERM scheduling shutdown...
+2020-02-20_04:58:30.76052 242:M 20 Feb 2020 04:58:30.760 # User requested shutdown...
+2020-02-20_04:58:30.76054 242:M 20 Feb 2020 04:58:30.760 * Saving the final RDB snapshot before exiting.
+2020-02-20_04:58:30.90485 242:M 20 Feb 2020 04:58:30.904 * DB saved on disk
+2020-02-20_04:58:30.90486 242:M 20 Feb 2020 04:58:30.904 * Removing the pid file.
+2020-02-20_04:58:30.90486 242:M 20 Feb 2020 04:58:30.904 * Removing the unix socket file.
+2020-02-20_04:58:30.90487 242:M 20 Feb 2020 04:58:30.904 # Redis is now ready to exit, bye bye...
+2020-02-20_04:58:30.93087 632:C 20 Feb 2020 04:58:30.930 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2020-02-20_04:58:30.93089 632:C 20 Feb 2020 04:58:30.930 # Redis version=5.0.7, bits=64, commit=4891612b, modified=0, pid=632, just started
+2020-02-20_04:58:30.93089 632:C 20 Feb 2020 04:58:30.930 # Configuration loaded
+2020-02-20_04:58:30.93182 632:M 20 Feb 2020 04:58:30.931 * Running mode=standalone, port=0.
+2020-02-20_04:58:30.93187 632:M 20 Feb 2020 04:58:30.931 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2020-02-20_04:58:30.93189 632:M 20 Feb 2020 04:58:30.931 # Server initialized
+2020-02-20_04:58:30.93192 632:M 20 Feb 2020 04:58:30.931 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2020-02-20_04:58:30.93196 632:M 20 Feb 2020 04:58:30.931 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2020-02-20_04:58:30.93211 632:M 20 Feb 2020 04:58:30.932 * DB loaded from disk: 0.000 seconds
+2020-02-20_04:58:30.93213 632:M 20 Feb 2020 04:58:30.932 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2020-02-20_05:03:31.09388 632:M 20 Feb 2020 05:03:31.090 * 10 changes in 300 seconds. Saving...
+2020-02-20_05:03:31.09838 632:M 20 Feb 2020 05:03:31.097 * Background saving started by pid 1820
+2020-02-20_05:03:31.19254 1820:C 20 Feb 2020 05:03:31.192 * DB saved on disk
+2020-02-20_05:03:31.19318 1820:C 20 Feb 2020 05:03:31.193 * RDB: 0 MB of memory used by copy-on-write
+2020-02-20_05:03:31.19791 632:M 20 Feb 2020 05:03:31.197 * Background saving terminated with success
+2020-02-20_05:08:32.05037 632:M 20 Feb 2020 05:08:32.050 * 10 changes in 300 seconds. Saving...
+2020-02-20_05:08:32.05071 632:M 20 Feb 2020 05:08:32.050 * Background saving started by pid 2393
+2020-02-20_05:08:32.06545 2393:C 20 Feb 2020 05:08:32.065 * DB saved on disk
+2020-02-20_05:08:32.06605 2393:C 20 Feb 2020 05:08:32.065 * RDB: 0 MB of memory used by copy-on-write
+2020-02-20_05:08:32.15105 632:M 20 Feb 2020 05:08:32.150 * Background saving terminated with success
+2020-02-20_05:13:33.09032 632:M 20 Feb 2020 05:13:33.090 * 10 changes in 300 seconds. Saving...
+2020-02-20_05:13:33.09061 632:M 20 Feb 2020 05:13:33.090 * Background saving started by pid 2975
+2020-02-20_05:13:33.12041 2975:C 20 Feb 2020 05:13:33.120 * DB saved on disk
+2020-02-20_05:13:33.12079 2975:C 20 Feb 2020 05:13:33.120 * RDB: 0 MB of memory used by copy-on-write
+2020-02-20_05:13:33.19126 632:M 20 Feb 2020 05:13:33.191 * Background saving terminated with success

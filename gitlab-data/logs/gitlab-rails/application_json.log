@@ -1,0 +1,21 @@
+# Logfile created on 2020-02-20 04:51:41 +0000 by logger.rb/66358
+{"severity":"INFO","time":"2020-02-20T04:51:41.852Z","correlation_id":null,"message":"User \"Administrator\" (admin@example.com) was created"}
+{"severity":"DEBUG","time":"2020-02-20T04:52:22.952Z","correlation_id":null,"message":"DB connection pool size: 25 (increased from 1 to match thread count)"}
+{"severity":"ERROR","time":"2020-02-20T04:53:12.295Z","correlation_id":null,"message":"  \n!! RUNTIME IDENTIFICATION FAILED: Failed to identify runtime for process 1088 (bin/rails)\n  Runtime based configuration settings may not work properly.\n  If you continue to see this error, please file an issue via\n  https://gitlab.com/gitlab-org/gitlab/issues/new\n"}
+{"severity":"INFO","time":"2020-02-20T04:53:23.084Z","correlation_id":"28f1a73ea9b7339c9b238e4c38b2c44f","message":"Failed Login: username=roto ip=172.28.0.1"}
+{"severity":"INFO","time":"2020-02-20T04:53:31.129Z","correlation_id":"fYK1ewYa1p4","message":"Successful Login: username=root ip=172.28.0.1 method=standard admin=true"}
+{"severity":"INFO","time":"2020-02-20T04:53:38.542Z","correlation_id":"P7Tl66fX1X","message":"User Logout: username=root ip=172.28.0.1"}
+{"severity":"DEBUG","time":"2020-02-20T04:58:44.362Z","correlation_id":null,"message":"DB connection pool size: 25 (increased from 1 to match thread count)"}
+{"severity":"INFO","time":"2020-02-20T05:00:12.305Z","correlation_id":"273a45ddc00cc82896936e0fafaa0baa","message":"Failed Login: username=root ip=172.28.0.1"}
+{"severity":"INFO","time":"2020-02-20T05:00:23.950Z","correlation_id":"da869092257c2638a61eca1c6201caff","message":"Failed Login: username=root ip=172.28.0.1"}
+{"severity":"INFO","time":"2020-02-20T05:00:52.100Z","correlation_id":"7TScFfTd6L","message":"User Created: username=rahul email=rahulk@1wayit.com ip=172.28.0.1 confirmed:true"}
+{"severity":"INFO","time":"2020-02-20T05:01:59.085Z","correlation_id":"W5Yb70lksN8","message":"User Logout: username=rahul ip=172.28.0.1"}
+{"severity":"INFO","time":"2020-02-20T05:02:37.029Z","correlation_id":"a60721c0ad9888d091ed8d459bf00a10","message":"Failed Login: username=root ip=172.28.0.1"}
+{"severity":"INFO","time":"2020-02-20T05:02:45.349Z","correlation_id":"577624c2b45496ba7ab1a63d48ab542e","message":"Failed Login: username=root ip=172.28.0.1"}
+{"severity":"INFO","time":"2020-02-20T05:03:04.712Z","correlation_id":"S2QKHM0EKV9","message":"Account Locked: username=root"}
+{"severity":"INFO","time":"2020-02-20T05:03:04.996Z","correlation_id":"a5da10e217dc5fe88ad65b799a70e7ce","message":"Failed Login: username=root ip=172.28.0.1"}
+{"severity":"INFO","time":"2020-02-20T05:07:02.709Z","correlation_id":"a65c1b1599baeac07159c294a643cdfe","message":"Failed Login: username=gitlab ip=172.28.0.1"}
+{"severity":"INFO","time":"2020-02-20T05:07:08.443Z","correlation_id":"83f308d4440d4b759ae32ed19b3e9ebc","message":"Failed Login: username=root ip=172.28.0.1"}
+{"severity":"INFO","time":"2020-02-20T05:16:08.397Z","correlation_id":"b732e083593a35304306ae010ec9731e","message":"Failed Login: username=root ip=172.28.0.1"}
+{"severity":"INFO","time":"2020-02-20T05:16:14.724Z","correlation_id":"O1AxFqLWrK7","message":"Successful Login: username=root ip=172.28.0.1 method=standard admin=true"}
+{"severity":"INFO","time":"2020-02-20T05:16:46.971Z","correlation_id":"NvSDUJecaB4","message":"User Logout: username=root ip=172.28.0.1"}
