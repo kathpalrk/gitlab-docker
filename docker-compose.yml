@@ -2,7 +2,7 @@ version: '3'
 services:
   gitlab:
     container_name: gitlab
-    image: gitlab/gitlab-ce:latest
+    image: rahulkathpal/gitlab-ce
     depends_on:
       - psql
     ports:
